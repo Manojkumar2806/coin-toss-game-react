@@ -1,0 +1,62 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2a139;
+  height: 100vh;
+}
+
+.Card-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+}
+
+
+
+.scoreConaiern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  width: 250px;
+}
+
+@media (width>=765px) {
+  .scoreConaiern {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+button{
+  background-color: #f9d423 ;
+  color:#a35200 ;
+  padding: 10px;
+  width: 100px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+h1{
+   color: #a35200;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+*{
+  font-family: "Roboto";
+}
